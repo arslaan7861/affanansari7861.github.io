@@ -8,7 +8,7 @@ const arr2 = [];
 //adding key function to start game
 
     document.addEventListener("keypress",evntAdd);
-   document.addEventListener("click",evntAdd);
+   window.addEventListener("click",evntAdd);
 
 function evntAdd(){
     document.querySelector("#level-title").innerHTML = "level 1";
